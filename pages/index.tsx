@@ -28,9 +28,17 @@ const Home = ({ collections }: Props) => {
 
       <h1 className="mb-10 text-4xl font-extralight">
         The{' '}
-        <span className="font-bold underline decoration-pink-600/50">Bob</span>{' '}
+        <span className="font-bold underline decoration-pink-600/50">
+          Bob GAN
+        </span>{' '}
         NFT Market
       </h1>
+
+      <div>
+        <p className="mb-10 text-center text-xl">
+          Site To Mint NFTs Generated from Generative Adveserial Networks
+        </p>
+      </div>
 
       <main className="bg-slate-100 p-10 shadow-xl shadow-rose-400/20">
         <div className="grid space-x-3 md:grid-cols-2 lg:grid-cols-3">
